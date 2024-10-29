@@ -102,6 +102,62 @@ img {
 	}
 }
 
+.main-form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px;
+}
+
+.box-form {
+	margin: 0 auto;
+	max-width: 500px;
+	width: 100%;
+}
+
+.flex-input {
+	display: flex;
+	gap: 15px;
+	margin-bottom: 10px;
+}
+
+.flex-input>div {
+	width: 50%;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.form-input {
+	width: 100%;
+	padding-bottom: 15px;
+}
+
+.form-label {
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 20px;
+	display: block;
+	margin-bottom: 16px;
+}
+
+.form-textarea {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.form-btn {
+	width: 100%;
+	font-size: 16px;
+	border-radius: 5px;
+	padding: 12px 25px;
+	border: none;
+	font-weight: 500;
+	background-color: #ffffff;
+	color: #333;
+	cursor: pointer;
+	margin-top: 25px;
+}
+
 .footer {
 	padding: 20px;
 	background-color: #303030;

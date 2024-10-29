@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Aventura Viajera</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/af5709ecff.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="body">
+	<nav>
+		<a href="../index.html">Home</a>
+		<a href="./ciudades.html">Ciudades</a>
+		<a href="./turismo.html">Turismo</a>
+		<a href="#" class="active">Contacto</a>
+	</nav>
+
+	<h1>Ponte en contacto si has visitado alguna ciudad</h1>
+
+	<div class="main-form">
+		<div class="box-form">
+			<form>
+				<div class="flex-input">
+					<div>
+						<input type="text" name="name" id="name" class="form-input">
+						<label type="text" name="name" id="name" class="form-label">Nombre:</label>
+					</div>
+					<div>
+						<input type="text" name="ciudad" id="city" class="form-input">
+						<label type="text" name="email" id="email" class="form-label">Email:</label>
+					</div>
+				</div>
+				<br />
+				<div class="flex-input">
+					<div>
+						<input type="text" name="ciudad" id="city" class="form-input">
+						<label type="text" name="ciudad" id="city" class="form-label">Ciudad:</label>
+					</div>
+					<div>
+						<div>
+							<label>¿Volverías?</label>
+							<label><input type="radio" name="option" id="option-yes" class="radio">Sí</label>
+							<label><input type="radio" name="option" id="option-no" >No</label>
+						</div>
+					</div>
+				</div>
+				<br />
+				<div class="flex-textarea">
+					<label type="text" name="experience" id="experience" class="form-label">Experiencia:</label>
+					<textarea name="message" id="message" cols="66" rows="10" placeholder="Cuéntame tu experiencia">
+					</textarea>
+				</div>
+				<div>
+					<input type="submit" class="form-btn" value="Enviar">
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<span class="footer-text">
+			&copy; Todos los derechos no reservados han hecho posible la creación de esta web.
+			<br />
+			<a href="https://www.linkedin.com/in/marcofs/" target="_blank" title="linkedin" class="icons">
+				<i class="fa fa-linkedin" aria-hidden="true"></i>
+			</a>
+			<a href="https://github.com/MarcoApunto" target="_blank" title="github" class="icons">
+				<i class="fa-brands fa-github"></i>
+			</a>
+		</span>
+	</footer>
+</body>
+
+</html>
